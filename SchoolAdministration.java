@@ -12,7 +12,7 @@ public class SchoolAdministration {
         List<Course> listOfCourses = new ArrayList<>();
         CourseCollection schoolCourseList = new CourseCollection(listOfCourses);
 
-        //create 60 Student objects
+        //create Student objects
         Student student1 = new Student("Tristan", "James", "Holmes", 587467519, "03/26/2004", "Male", "23 Bush Avenue, Edmonton AB T7U9R6", 1002085, 534, "APE3", 11, List.of("Biology 20", "Computing Science 20", "Horticulture 20", "Physics 20", "Math 20"), List.of("James John Holmes", "Jill Stew Holmes"), List.of("William Hendrick", "Shelly Holt"));
         schoolPersonList.addPerson(student1);
         Student student2 = new Student("Dylan", "", "Morrell", 587602624, "11/13/2005", "Male", "78 Neon Street, Sherwood Park AB T9G2O1", 1125762, 26, "GPY9", 10, List.of("Math 10", "English Language Arts 10 (AP)", "General Psychology 10", "Science 10", "Photography 10"), List.of("Locke Morrell"), List.of("Maria Brown", "Tess Love"));
@@ -66,7 +66,7 @@ public class SchoolAdministration {
         VicePrincipal vicePrincipal1 = new VicePrincipal("Preeti", "Jake", "Agarwal", 801016429, "02/19/1981", "Female", "Pilrose Mansion, Edmonton AB T0B0P1", 10026, List.of("Rhoe Tan", "Aarti Bhatt"));
         schoolStaffList.addStaff(vicePrincipal1);
 
-        //create 25 courses
+        //create courses
         Course course1 = new Course("AP European History", "Peter Willard", 267, List.of("Richie Williams", "Stephen Matthews", "Erin Rivera", "Elaine Star"));
         schoolCourseList.addCourse(course1);
 
